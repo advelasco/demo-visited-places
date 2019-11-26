@@ -3,6 +3,7 @@ A demo application using nodejs to log visited places
 
 ### How to run
 Just run following command and the application will be running on localhost:3036
+
 `$ node index.js
 
 MAP Front: localhost:3036
