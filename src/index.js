@@ -23,6 +23,6 @@ app.use(bodyParser.json());
 PlacesRouter.routesConfig(app);
 
 
-app.listen(config.port, function () {
+app.listen(process.env.PORT || config.port, function () {
     console.log('listening on port %s', config.port);
 });
