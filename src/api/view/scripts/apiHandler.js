@@ -1,7 +1,7 @@
 var apiHandler = function () {
     var request = new XMLHttpRequest();
-    var url_base = "http://localhost:3600/api/v1/places";
-  
+    var url_base = window.location.href + "api/v1/places";
+
     function getPlaceById (data, callback) {
       request.open("GET", url_base + '/' + data)
       request.send();
